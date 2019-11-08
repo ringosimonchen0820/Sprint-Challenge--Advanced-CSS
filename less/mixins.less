@@ -1,1 +1,25 @@
 // Mixins Here
+.padding(@top, @right, @bttm, @left) {
+    padding: @top @right @bttm @left;
+}
+
+.borderRadius(@rad) {
+    border-radius: @rad;
+}
+
+.customBtn(@btnTextColor, @btn-bg-color, @btnBorderColor, @btnWidth) {
+    color: @btnTextColor;
+    background: @btn-bg-color;
+    border: 1px solid @btnBorderColor;
+    .borderRadius(5px);
+    font-size: 1.6rem;
+    width: @btnWidth;
+    height: 50px;
+    .padding(20px, 20px, 20px, 20px);
+    margin: 15px 0 0 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
