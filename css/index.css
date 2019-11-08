@@ -193,6 +193,7 @@ p {
 }
 .navContainer .aContainer {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   width: 40%;
   padding: 10px 10px 5px 10px;
@@ -228,6 +229,7 @@ footer {
 }
 .home .earth {
   display: flex;
+  flex-direction: row;
 }
 .home .earth img {
   border-radius: 5px;
@@ -253,6 +255,7 @@ footer {
 }
 .home .space-images {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -290,6 +293,7 @@ footer {
   border-top: 1px solid #dee2e6;
   padding: 50px 60px 50px 60px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 @media (max-width:500px) {

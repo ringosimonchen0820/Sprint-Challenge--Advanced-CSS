@@ -1,7 +1,6 @@
 // Navigation code here
 .navContainer {
-    display: flex;
-    flex-direction: column;
+    .flexColumn();
     align-items: center;
     width: 100%;
     background: @nav-bg;
@@ -24,7 +23,7 @@
     }
 
     .aContainer {
-        display: flex;
+        .flexRow();
         justify-content: space-between;
         width: 40%;
         .padding(10px, 10px, 5px, 10px);
